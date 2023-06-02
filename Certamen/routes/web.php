@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\Inicio;
 
 /*
 |--------------------------------------------------------------------------
@@ -13,6 +14,9 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
+/* Route::get('/bienvenida', function () {
+    return view('index');
 });
+ */
+
+Route::get('/',[Inicio::class,'index'])->name('bienvenido.index');
