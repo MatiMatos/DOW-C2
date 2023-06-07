@@ -12,7 +12,9 @@ return new class extends Migration
     public function up(): void
     {
         Schema::create('profesor', function (Blueprint $table) {
-            $table->unsignedInteger('id')->autoIncrement();
+            $table->string('rut',10);
+            $table->string('nombre',20);
+            $table->string('apellido',20);
             $table->timestamps();
         });
     }
