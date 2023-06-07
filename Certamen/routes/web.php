@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Inicio;
+use App\Http\Controllers\AlumnoController;
 
 /*
 |--------------------------------------------------------------------------
@@ -19,4 +20,6 @@ use App\Http\Controllers\Inicio;
 });
  */
 
-Route::get('/',[Inicio::class,'index'])->name('bienvenido.index');
+Route::get('/',[Inicio::class,'index'])->name('bienvenida.index');
+
+Route::get('/',[AlumnoController::class,'index'])->name('alumno.alumno');
