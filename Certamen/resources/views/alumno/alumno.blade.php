@@ -14,10 +14,10 @@
                 <table class="table table-bordered table-striped table-hover">
                     <thead>
                         <tr>
-                            <th>N° Grupo</th>
-                            <th>Integrantes</th>
+                            <th>N° de la Propuesta</th>
+                            <th>Alumno</th>
                             <th>Nombre Propuesta</th>
-                            <th>Comentario</th>
+                            <th>Detalle de la Propuesta</th>
                             <th colspan="2">Estado</th>
                         </tr>
                     </thead>
@@ -44,7 +44,7 @@
                             <td class="text-center" style="width: 1rem">
                                 <span data-bs-toggle="tooltip">
                                     <button type="button" class="btn bt-sm btn-secondary pb-0">
-                                        <span class="material-icons">Accion</span>
+                                        <span class="material-icons">Editar</span>
                                     </button>
                                 </span>
                             </td>
