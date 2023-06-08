@@ -24,7 +24,7 @@
                             <a class="nav-link active @if(Route::current()->getName()=='bienvenida.index') active @endif" aria-current="page" href="{{route('bienvenida.index')}}">Inicio</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active @if(Route::segments()[0]=='alumno.alumno') active @endif" aria-current="page" href="{{route('alumno.alumno')}}">Alumno</a>
+                            <a class="nav-link active @if(Route::current()->getName()=='alumno.alumno') active @endif" aria-current="page" href="{{route('alumno.alumno')}}">Alumno</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">Profesor</a>
