@@ -20,6 +20,6 @@ use App\Http\Controllers\AlumnoController;
 });
  */
 
-Route::get('/bienvenida',[Inicio::class,'index'])->name('bienvenida.index');
+Route::get('/',[Inicio::class,'index'])->name('bienvenida.index');
 
-Route::get('/',[AlumnoController::class,'index'])->name('alumno.alumno');
+Route::get('/alumno',[AlumnoController::class,'index'])->name('alumno.alumno');
