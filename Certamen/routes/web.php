@@ -1,6 +1,8 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\Inicio;
+use App\Http\Controllers\AlumnoController;
 
 /*
 |--------------------------------------------------------------------------
@@ -13,6 +15,11 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
+/* Route::get('/bienvenida', function () {
+    return view('index');
 });
+ */
+
+Route::get('/bienvenida',[Inicio::class,'index'])->name('bienvenida.index');
+
+Route::get('/',[AlumnoController::class,'index'])->name('alumno.alumno');
