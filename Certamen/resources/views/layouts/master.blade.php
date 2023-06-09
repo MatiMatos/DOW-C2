@@ -37,17 +37,24 @@
                         
                         {{-- profesor --}}
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <a class="nav-link dropdown-toggle @if(Route::current()->getName()=='profesor.profesor') active @endif" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             Profesor
                             </a>
                             <ul class="dropdown-menu">
-                                <li><a class="dropdown-item @if(Route::current()->getName()=='profesor.profesor') active @endif" aria-current="page" href="{{route('profesor.profesor')}}">Lista de Propuestas</a></li>
+                                <li><a class="dropdown-item" aria-current="page" href="{{route('profesor.profesor')}}">Lista de Propuestas</a></li>
                             </ul>
                         </li>
                         {{-- fin profesor --}}
                         
                         {{-- admin --}}
-                        
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle @if(Route::current()->getName()=='admin.admin') active @endif" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Administrador
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" aria-current="page" href="{{route('admin.admin')}}">Lista de Propuestas</a></li>
+                            </ul>
+                        </li>
                         {{-- fin admin --}}
                     </ul>
                 </div>

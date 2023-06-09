@@ -2,12 +2,22 @@
 
 @section('contenido-principal')
 
-<div>
+<div class="text text-center">
+    <br>
+    <br>
     <form action="" method="post">
         <label for="">Rut del Alumno</label>
+        <br>
         <input type="text">
+        <br>
+        <br>
+        <label for="">Fecha</label>
+        <input type="date" value="">
+        <br>
+        <br>
         <label for="">Ingrese Propuesta</label>
-        <input type="text-box" name="" id="">
+        <br>
+        <textarea name="" id="" cols="50" rows="5"></textarea>
     </form>
 </div>
 

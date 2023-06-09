@@ -48,8 +48,10 @@
                                     </button>
                                 </span>
                             </td>
+                        </tr>
                     </tbody>
                 </table>
+            </div>
         </div>
     </div>
 

@@ -11,6 +11,10 @@ use App\Http\Controllers\AlumnoController;
 /* Profesor */
 use App\Http\Controllers\ProfesorController;
 
+/* Admin */
+
+use App\Http\Controllers\AdministradorController;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -34,3 +38,5 @@ Route::get('/alumno',[AlumnoController::class,'index'])->name('alumno.alumno');
 Route::get('/alumno/alumno',[AlumnoController::class,'propuesta'])->name('alumno.propuesta');
 
 Route::get('/profesor',[ProfesorController::class,'index'])->name('profesor.profesor');
+
+Route::get('/admin',[AdministradorController::class,'index'])->name('admin.admin');
