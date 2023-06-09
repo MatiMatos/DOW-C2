@@ -1,6 +1,7 @@
 @extends('layouts.master')
 
 @section('contenido-principal')
+<<<<<<< Updated upstream
     
 <div class="container-fluid">
     <div class="row">
@@ -55,4 +56,9 @@
     </div>
 </div>
 
+=======
+    <div class="container-fluid">
+    </div>
+
+>>>>>>> Stashed changes
 @endsection

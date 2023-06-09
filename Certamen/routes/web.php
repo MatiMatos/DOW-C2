@@ -7,6 +7,7 @@ use App\Http\Controllers\Inicio;
 
 /* Alumno */
 use App\Http\Controllers\AlumnoController;
+use App\Http\Controllers\ProfesorController;
 
 /* Profesor */
 use App\Http\Controllers\ProfesorController;
@@ -30,7 +31,10 @@ use App\Http\Controllers\ProfesorController;
 Route::get('/',[Inicio::class,'index'])->name('bienvenida.index');
 
 Route::get('/alumno',[AlumnoController::class,'index'])->name('alumno.alumno');
+<<<<<<< Updated upstream
 
 Route::get('/alumno/alumno',[AlumnoController::class,'propuesta'])->name('alumno.propuesta');
 
+=======
+>>>>>>> Stashed changes
 Route::get('/profesor',[ProfesorController::class,'index'])->name('profesor.profesor');
