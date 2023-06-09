@@ -15,20 +15,20 @@
         </div>
 
         <div class="row">
-            <div class="order-last order-lg-first">
+            <div class="col-12 order-last order-lg-first">
                 <table class="table table-bordered table-striped table-hover">
                     <thead>
                         <tr>
-                            <th>N° de la Propuesta</th>
+                            <th style="width: 1rem">N° de la Propuesta</th>
                             <th>Alumno</th>
                             <th>Nombre Propuesta</th>
                             <th>Detalle de la Propuesta</th>
-                            <th colspan="2">Estado</th>
+                            <th colspan="2" class="text-center">Estado</th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr>
-                            <td class="align-middle">1</td>
+                            <td class="align-middle ">1</td>
                             <td class="align-middle">Matias Castillo - Matias Arancibia</td>
                             <td class="align-middle">Gestor de cotizacion</td>
                             <td class="align-middle"><p>rada rada - koko koko - rada rada- koko koko ko</p></td>

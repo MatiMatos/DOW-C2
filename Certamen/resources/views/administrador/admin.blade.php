@@ -7,7 +7,7 @@
         <table class="table table-bordered table-striped table-hover">
             <thead>
                 <tr>
-                    <th>N° de la Propuesta</th>
+                    <th class="text-center" style="width: 1rem">N° de la Propuesta</th>
                     <th>Alumno</th>
                     <th>Nombre Propuesta</th>
                     <th>Detalle de la Propuesta</th>
@@ -29,13 +29,13 @@
                         </span>
                     </td>
                     <td class="text-center" style="width: 1rem">
-                        <button type="button" class="btn bt-sm btn-success pb-0">
+                        <button type="button" class="btn bt-sm btn-success pb-0" style="width: 6rem">
                             <span class="material-icons">Aceptado</span>
                         </button>
-                        <button type="button" class="btn bt-sm btn-danger pb-0">
+                        <button type="button" class="btn bt-sm btn-danger pb-0" style="width: 6rem">
                             <span class="material-icons">Rechazado</span>
                         </button>
-                        <button type="button" class="btn bt-sm btn-warning pb-0">
+                        <button type="button" class="btn bt-sm btn-warning pb-0" style="width: 6rem">
                             <span class="material-icons">Modificar</span>
                         </button>
                     </td>

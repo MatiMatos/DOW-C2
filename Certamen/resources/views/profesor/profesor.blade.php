@@ -14,7 +14,7 @@
             <table class="table table-bordered table-striped table-hover">
                 <thead>
                     <tr>
-                        <th>N° de la Propuesta</th>
+                        <th style="width: 1rem">N° de la Propuesta</th>
                         <th>Alumno</th>
                         <th>Nombre Propuesta</th>
                         <th>Profesor guia</th>
@@ -46,7 +46,7 @@
         </div>
 
         <div class="col-12 col-lg-4 order-first order-lg-last">
-            <div class="card">
+            <div class="card" style="width: 13rem">
                 <div class="card-header bg-dark text-white">Agregar Comentario</div>
                     <div class="card-body">
                         <form>

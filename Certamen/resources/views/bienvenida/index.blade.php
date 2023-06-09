@@ -1,11 +1,11 @@
 @extends('layouts.master')
 
-@section('contenido-principal')
-<body class="bg-primary">    
-    <div class="row">
+@section('contenido-principal')   
+    <div class="row" style="background: linear-gradient(to bottom, #0000cc 0%, #00ffff 100%);">
         <div class="col">
-            <div class="card-body" style="padding: 3cm 0cm 3cm 15cm">
-                <div class="card" style="height: 8cm; width: 18cm">
+            <div class="card-body" style="padding: 3cm 0cm 3cm 15cm ">
+                <div class="card" style="background: linear-gradient(to right, #24c6dc, #514a9d); height: 8cm; width: 18cm">
+                {{-- style="height: 8cm; width: 18cm"> --}}
                     <div class="text text-center">
                         <h1>Trabajo Certamen II</h1>
                         <br>
@@ -17,8 +17,6 @@
                 </div>
             </div>
         </div>
-    </div>
-</body>
-    
+    </div> 
 
 @endsection
