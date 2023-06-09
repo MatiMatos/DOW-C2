@@ -23,12 +23,6 @@
                         <li class="nav-item">
                             <a class="nav-link active @if(Route::current()->getName()=='bienvenida.index') active @endif" aria-current="page" href="{{route('bienvenida.index')}}">Inicio</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link active @if(Route::current()->getName()=='alumno.alumno') active @endif" aria-current="page" href="{{route('alumno.alumno')}}">Alumno</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active @if(Route::current()->getName()=='profesor.profesor') active @endif" aria-current="page" href="{{route('profesor.profesor')}}">Profesor</a>
-                        </li>
                         {{-- alumno --}}
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle @if(Route::current()->getName()=='alumno.alumno' or Route::current()->getName()=='alumno.propuesta') active @endif" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">

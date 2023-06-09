@@ -35,7 +35,7 @@
                                     <span class="material-icons">Eliminar </span>
                                 </button>
                             </span>
-                            <a class="btn btn-sm btn-info pb-0 text-white" data-bs-toggle="tooltip" style="width: 5rem">
+                            <a class="btn btn-sm btn-info pb-0 text-white mt-2" data-bs-toggle="tooltip" style="width: 5rem">
                                 <span class="material-icons">Editar</span>
                             </a>
 
@@ -45,8 +45,8 @@
             </table>
         </div>
 
-        <div class="col-12 col-lg-4 order-first order-lg-last">
-            <div class="card" style="width: 13rem">
+        <div class="col-15 col-lg-4 order-first order-lg-last">
+            <div class="card" style="width: 15rem">
                 <div class="card-header bg-dark text-white">Agregar Comentario</div>
                     <div class="card-body">
                         <form>
@@ -60,7 +60,7 @@
                             </div>
                             <div class="mb-3 d-grid gap-2 d-lg-block">
                                 <button type="reset" class="btn btn-warning">Cancelar</button>
-                                <button type="submit" class="btn btn-success">Agregar Comentario</button>
+                                <button type="submit" class="btn btn-success mt-2">Agregar Comentario</button>
                             </div>
                         </form>
                     </div>

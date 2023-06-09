@@ -1,11 +1,10 @@
 @extends('layouts.master')
 
 @section('contenido-principal')
-
-    <div class="container-fluid" style="width: 20rem;">
+    <div class="container-fluid" style="width: 19rem;">
         <div class="row">
             <div class="col">
-                <h3>Rada</h3>
+                <h3>Ingreso Propuesta</h3>
             </div>
         </div>
         <div class="row">
@@ -16,7 +15,7 @@
                         <div class="row">
                             <div class="col">
                                 <label for="" >Rut del Alumno</label>
-                                <input type="text" class="form-control" style="width: 12rem" placeholder="Sin puntos y con gion" aria-label="Sin puntos y con gion">
+                                <input type="text" class="form-control" style="width: 12rem" placeholder="Sin puntos y con guion" aria-label="Sin puntos y con gion">
                             </div>
                             <div class="col">
                                 <label for="">Nombre Propuesta</label>
