@@ -3,6 +3,11 @@
 @section('contenido-principal')
 
     <div class="container-fluid">
+        <div class="text-center" style="width: 1rem">
+            <a href="{{route('alumno.propuesta')}}" class="btn btn-sm btn-secondary pb-0 text-black" data-bs-toggle="tooltip" data-bs-title="Agregar Propuesta">
+                <span class="material-icons">Agrager Propuesta</span>
+            </a>
+        </div>
         <div class="row">
             <div class="col">
                 <h3>Propuestas</h3>
