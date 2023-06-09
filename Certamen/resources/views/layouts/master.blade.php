@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -23,26 +23,39 @@
                         <li class="nav-item">
                             <a class="nav-link active @if(Route::current()->getName()=='bienvenida.index') active @endif" aria-current="page" href="{{route('bienvenida.index')}}">Inicio</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link active @if(Route::current()->getName()=='alumno.alumno') active @endif" aria-current="page" href="{{route('alumno.alumno')}}">Alumno</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Profesor</a>
-                        </li>
+                        {{-- alumno --}}
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            Dropdown
+                            <a class="nav-link dropdown-toggle @if(Route::current()->getName()=='alumno.alumno' or Route::current()->getName()=='alumno.propuesta') active @endif" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Alumno
                             </a>
                             <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#">Action</a></li>
-                                <li><a class="dropdown-item" href="#">Another action</a></li>
-                                <li><hr class="dropdown-divider"></li>
-                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                <li><a class="dropdown-item" aria-current="page" href="{{route('alumno.alumno')}}">Lista de Propuestas</a></li>
+                                <li><a class="dropdown-item" aria-current="page" href="{{route('alumno.propuesta')}}">Crear Propuesta</a></li>
                             </ul>
                         </li>
-                        <li class="nav-item">
-                        <a class="nav-link disabled">Disabled</a>
+                        {{-- fin alumno --}}
+                        
+                        {{-- profesor --}}
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle @if(Route::current()->getName()=='profesor.profesor') active @endif" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Profesor
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" aria-current="page" href="{{route('profesor.profesor')}}">Lista de Propuestas</a></li>
+                            </ul>
                         </li>
+                        {{-- fin profesor --}}
+                        
+                        {{-- admin --}}
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle @if(Route::current()->getName()=='admin.admin') active @endif" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Administrador
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" aria-current="page" href="{{route('admin.admin')}}">Lista de Propuestas</a></li>
+                            </ul>
+                        </li>
+                        {{-- fin admin --}}
                     </ul>
                 </div>
             </div>

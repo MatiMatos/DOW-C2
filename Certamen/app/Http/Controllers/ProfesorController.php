@@ -3,8 +3,10 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Storage;
 
-class Profesor extends Controller
+
+class ProfesorController extends Controller
 {
     public function index(){
         //dd('Hola mundo'); //dump and die

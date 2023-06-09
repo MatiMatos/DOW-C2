@@ -3,6 +3,11 @@
 @section('contenido-principal')
 
     <div class="container-fluid">
+        <div class="text-center" style="width: 1rem">
+            <a href="{{route('alumno.propuesta')}}" class="btn btn-sm btn-secondary pb-0 text-black" data-bs-toggle="tooltip" data-bs-title="Agregar Propuesta">
+                <span class="material-icons">Agrager Propuesta</span>
+            </a>
+        </div>
         <div class="row">
             <div class="col">
                 <h3>Propuestas</h3>
@@ -10,20 +15,20 @@
         </div>
 
         <div class="row">
-            <div class="order-last order-lg-first">
+            <div class="col-12 order-last order-lg-first">
                 <table class="table table-bordered table-striped table-hover">
                     <thead>
                         <tr>
-                            <th>N° Grupo</th>
-                            <th>Integrantes</th>
+                            <th style="width: 1rem">N° de la Propuesta</th>
+                            <th>Alumno</th>
                             <th>Nombre Propuesta</th>
-                            <th>Comentario</th>
-                            <th colspan="2">Estado</th>
+                            <th>Detalle de la Propuesta</th>
+                            <th colspan="2" class="text-center">Estado</th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr>
-                            <td class="align-middle">1</td>
+                            <td class="align-middle ">1</td>
                             <td class="align-middle">Matias Castillo - Matias Arancibia</td>
                             <td class="align-middle">Gestor de cotizacion</td>
                             <td class="align-middle"><p>rada rada - koko koko - rada rada- koko koko ko</p></td>
@@ -44,12 +49,14 @@
                             <td class="text-center" style="width: 1rem">
                                 <span data-bs-toggle="tooltip">
                                     <button type="button" class="btn bt-sm btn-secondary pb-0">
-                                        <span class="material-icons">Accion</span>
+                                        <span class="material-icons">Editar</span>
                                     </button>
                                 </span>
                             </td>
+                        </tr>
                     </tbody>
                 </table>
+            </div>
         </div>
     </div>
 
