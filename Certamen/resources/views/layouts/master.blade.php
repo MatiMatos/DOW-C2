@@ -21,9 +21,6 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-<<<<<<< Updated upstream
-                            <a class="nav-link @if(Route::current()->getName()=='bienvenida.index') active @endif" aria-current="page" href="{{route('bienvenida.index')}}">Inicio</a>
-=======
                             <a class="nav-link active @if(Route::current()->getName()=='bienvenida.index') active @endif" aria-current="page" href="{{route('bienvenida.index')}}">Inicio</a>
                         </li>
                         <li class="nav-item">
@@ -31,7 +28,6 @@
                         </li>
                         <li class="nav-item">
                             <a class="nav-link active @if(Route::current()->getName()=='profesor.profesor') active @endif" aria-current="page" href="{{route('profesor.profesor')}}">Profesor</a>
->>>>>>> Stashed changes
                         </li>
                         {{-- alumno --}}
                         <li class="nav-item dropdown">
